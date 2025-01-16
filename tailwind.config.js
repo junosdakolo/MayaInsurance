@@ -9,6 +9,12 @@ module.exports = {
         mayaColor: 'hsla(18, 100%, 49%, 1)',
         mainBG: 'hsla(240, 33%, 97%, 1)',
       },
+      screens:{
+        sm: '480px',
+        md: '768px',
+        lg: '976px',
+        xl: '1440px',
+      },
     },
   },
   plugins: [],
