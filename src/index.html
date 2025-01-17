@@ -15,8 +15,8 @@
             <!-- flex Container -->
         <div class="items-center justify-between flex">
             <!-- Logo -->
-            <div class="pt-2">
-                <img src="../Img/Logo.png" alt="logo">      
+            <div class="pt-2 ">
+                <img  src="../Img/Logo.png" alt="logo">      
             </div>
             <!-- Menu -->
             <div class="hidden sm:hidden md:hidden lg:flex space-x-6 ">
@@ -51,10 +51,10 @@
                 </div> 
             </div> -->
         </nav>   
-        <div class="flex  mb-32 px-20 pt-20">
+        <div class="flex sm:flex-col md:flex-row  mb-32 px-20 pt-20">
             <div class="container mx-auto">
-                <h1 class="text-SignUp max-w-md text-8xl font-bold text-left md:text-6xl md:text-left"> Keep Your <br> Pet Healthy</h1>
-                <p class="text-SignUp max-w-md pt-5 text-left md:text-left font-semibold">We make protecting your furry friend easy and affordable. From accidents to illnesses, our policies have got you covered.</p>
+                <h1 class="text-SignUp max-w-md text-8xl font-bold text-left md:text-6xl sm:text-4xl md:text-left"> Keep Your  Pet Healthy</h1>
+                <p class="text-SignUp max-w-md pt-5 sm:text-justify text-left md:text-left font-semibold">We make protecting your furry friend easy and affordable. From accidents to illnesses, our policies have got you covered.</p>
                 <div class=" md:flex space-x-2 pt-5 pb-5">
                     <button class="hidden md:block p-3 px-6 text-white bg-SignUp rounded-full baseline hover:bg-blue-900"> Register</button>
                     <div class="flex">
@@ -69,7 +69,7 @@
      </div>
      <!-- Sponsors -->
     <div class="mx-auto mt-0 pt-0 px-20">
-        <div class="flex justify-between items-center px-2">
+        <div class="flex sm:grid md:grid-cols-7 sm:grid-cols-4 justify-between items-center px-2">
             <img src="../Img/image 4.png" alt="">
             <img src="../Img/image 6.png" alt="">
             <img src="../Img/3.png" alt="">
@@ -87,7 +87,7 @@
             </div>
             <div class="container mx-auto text-center space-x-2 pt-3 pb-3 items-center">
                 <h3 class="text-SignUp font-bold md:text-4xl text-4xl"> About Us</h3>
-                <p class="text-SignUp pt-5 text-center font-semibold">We believe that every pet deserves access to quality healthcare. We offer comprehensive coverage options for everything from routine check ups and vaccinations to emergency surgeries and specialized treatments.</p> 
+                <p class="text-SignUp pt-5 sm:text-justify text-center font-semibold">We believe that every pet deserves access to quality healthcare. We offer comprehensive coverage options for everything from routine check ups and vaccinations to emergency surgeries and specialized treatments.</p> 
             </div>
         </div>
     <!-- Services -->
@@ -101,22 +101,36 @@
                         <p class="text-white pt-2">Connect with your pet</p>
                     </div>  
                 </div>
-                <div  class="absolute p-4  justify-left ">
-                    <button class="p-3 px-6 text-white bg-SignUp rounded-full baseline hover:bg-red-400 items-center"> Get Quote </button>
+                <div  class="absolute top-auto left-0 inset-0 overflow-visible p-4  justify-left ">
+                    <button class="p-3 px-6 text-SignUp bg-white rounded-full baseline hover:bg-blue-100 items-center"> Get Quote </button>
                 </div>
             </div>
 
-            <div class="flex-col-3">
-                <div class="container mx-auto bg-white p-5 rounded-lg shadow-lg">
-                    <h3 class="text-SignUp font-bold pt-5"> Veterinary</h3>
-                    <p class="text-SignUp pt-5">Get your checked regularly</p>
-                    <img src="../Img/7xm (1).png" alt="">
+            <div class="flex flex-col gap-4">
+                <div class="relative container mx-auto rounded-2xl overflow-hidden shadow-lg">
+                    <img src="../Img/7xm 4.png" alt=""> 
+                    <div class="absolute inset-0 overflow-hidden">
+                        <div class="p-2">
+                            <h3 class="text-white font-bold pt-2"> Pet Grooming</h3>
+                            <p class="text-white pt-0">Connect with your pet</p>
+                        </div>  
+                    </div>
+                    <div  class="absolute top-auto left-0 inset-0 overflow-visible p-4  justify-left ">
+                        <button class="p-3 px-6 text-SignUp bg-white rounded-full baseline hover:bg-blue-100 items-center"> Get Quote </button>
+                    </div>
                 </div>
-                <div class="container mx-auto bg-white p-5 rounded-lg shadow-lg">
-                    <h3 class="text-SignUp font-bold pt-5"> </h3>
-                    <p class="text-SignUp pt-5"> Claims Director</p>
-                    <img src="../Img/7xm 8.png" alt="">
-                 </div>
+                <div class="relative container mx-auto rounded-2xl overflow-hidden shadow-lg">
+                    <img src="../Img/7xm 9.png" alt=""> 
+                    <div class="absolute inset-0 overflow-hidden">
+                        <div class="p-4">
+                            <h3 class="text-white font-bold pt-2"> Pet Grooming</h3>
+                            <p class="text-white pt-0">Connect with your pet</p>
+                        </div>  
+                    </div>
+                    <div  class="absolute top-auto left-0 inset-0 p-4  justify-left ">
+                        <button class="p-3 px-6 text-SignUp bg-white rounded-full baseline hover:bg-blue-100 items-center"> Get Quote </button> 
+                    </div>
+                </div>
                
             </div>
            
@@ -132,7 +146,7 @@
         </div>
         <div class="container mx-auto text-center space-x-2 pt-3 pb-3 items-center">
             <h3 class="text-SignUp font-bold md:text-4xl text-4xl "> Our Groomers</h3>
-            <p class="text-SignUp pt-5 text-center font-semibold">As pet owners ourselves, we know that unexpected accidents and illnesses can be stressful and expensive. That s why our policies are designed to provide maximum coverage with minimal hassle.</p> 
+            <p class="text-SignUp sm:text-justify pt-5 text-center font-semibold">As pet owners ourselves, we know that unexpected accidents and illnesses can be stressful and expensive. That s why our policies are designed to provide maximum coverage with minimal hassle.</p> 
         </div>
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="container mx-auto bg-heroColor p-5 rounded-2xl shadow-lg">
