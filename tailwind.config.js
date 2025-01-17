@@ -8,6 +8,7 @@ module.exports = {
         SignUp: 'hsla(205, 100%, 17%, 1)',
         mayaColor: 'hsla(18, 100%, 49%, 1)',
         mainBG: 'hsla(240, 33%, 97%, 1)',
+        getQuoat: 'hsla(0, 0%, 100%, 1)',
       },
       screens:{
         sm: '480px',
