@@ -9,6 +9,8 @@ module.exports = {
         mayaColor: 'hsla(18, 100%, 49%, 1)',
         mainBG: 'hsla(240, 33%, 97%, 1)',
         getQuoat: 'hsla(0, 0%, 100%, 1)',
+        priceText: 'hsla(212, 17%, 17%, 1)',
+        priceText2: 'hsla(195, 6%, 62%, 1)',
       },
       screens:{
         sm: '480px',

@@ -62,8 +62,13 @@
                     </div>
                 </div>  
             </div>
-            <div class="container mr-10 ">
-                <img src="../Img/Image.png" alt="">
+            <div class="relative container mr-10 ">
+                <!-- <div class="absolute left-36 inset-0 overflow-hidden">
+                    <img src="../Img/Little Stuff.png" alt="">
+                </div> -->
+                <div>
+                    <img src="../Img/Image.png" alt="">
+                </div>
             </div>
         </div>
      </div>
@@ -149,23 +154,115 @@
             <p class="text-SignUp sm:text-justify pt-5 text-center font-semibold">As pet owners ourselves, we know that unexpected accidents and illnesses can be stressful and expensive. That s why our policies are designed to provide maximum coverage with minimal hassle.</p> 
         </div>
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="container mx-auto bg-heroColor p-5 rounded-2xl shadow-lg">
+            <div class=" container mx-auto bg-heroColor p-5 rounded-2xl shadow-lg">
                 <h3 class="text-SignUp font-bold pt-5 text-center"> Dre Williams</h3>
                 <p class="text-SignUp pt-0 text-center">CEO & Founder</p>
                 <img  src="../Img/7xm.png" alt="">
             </div>
-            <div class="container mx-auto bg-heroColor p-5 rounded-2xl shadow-lg">
+            <div class=" container mx-auto bg-heroColor p-5 rounded-2xl shadow-lg">
                 <h3 class="text-SignUp font-bold pt-5 text-center"> Simone Hicks</h3>
                 <p class="text-SignUp pt-0 text-center">Chief Veterinary Officer</p>
-                <img src="../Img/7xm (1).png" alt="">
+                <img  src="../Img/7xm (1).png" alt="">
             </div>
-            <div class="container mx-auto bg-heroColor p-5 rounded-2xl shadow-lg">
+            <div class=" container mx-auto bg-heroColor p-5 rounded-2xl shadow-lg">
                 <h3 class="text-SignUp font-bold pt-5 text-center"> Olivia Rodrigo</h3>
                 <p class="text-SignUp pt-0 text-center"> Claims Director</p>
-                <img src="../Img/7xm 8.png" alt="">
+                <img  src="../Img/7xm 8.png" alt="">
             </div>
         </div>
     </div>
+    <!-- Plan & Pricing -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <div class="container mx-auto text-center space-x-2 pt-5 items-center">
+                <button class="p-3 px-6 text-white bg-mayaColor rounded-full baseline hover:bg-red-400 items-center"> SUBSCRIPTION</button>
+            </div>
+            <div class="container mx-auto text-center space-x-2 pt-3 pb-3 items-center">
+                <h3 class="text-SignUp font-bold md:text-4xl text-4xl "> Plans & Pricing</h3>
+                <p class="text-priceText sm:text-center pt-5 text-center font-semibold">With flexible payment options and a straightforward claims process, we make it easy to give your pet the care they deserve.</p> 
+            </div>
+            <!-- Monthly/Yearly Toggle -->
+            <div class="flex justify-center mb-8">
+                <div class="inline-flex rounded-full bg-gray-200 p-1">
+                    <button class="px-6 py-2 text-sm font-semibold bg-SignUp hover:text-gray-200 text-white rounded-full">Monthly</button>
+                    <button class="px-6 py-2 text-sm font-semibold text-gray-600 hover:text-blue-400">Yearly</button>
+                </div>
+            </div>
+
+            <!-- Pricing Cards -->
+            <div class="container mt-20 bg-white  rounded-3xl grid grid-cols-1 md:grid-cols-4 gap-0">
+                <!-- Card 1 -->
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl text-left font-bold text-SignUp">$20 <span class="text-sm text-gray-400">/month</span></h3>
+                    <p class="mt-2 font-bold text-left text-lg text-SignUp">Intro</p>
+                    <p class="mt-2 text-sm text-gray-600 text-left">
+                        For most businesses that want to optimize web queries.
+                    </p>
+                    <ul class="mt-4 text-left space-y-2">
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Shower</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Fitness Check-up</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Grooming</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Hair and Nail Cut</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Control Hair Falling</li>
+                    </ul>
+                    <button class="mt-12 rounded-full bg-gray-100 text-SignUp font-bold px-4 py-2  hover:bg-blue-100">Choose plan</button>
+                </div>
+
+                <!-- Card 2 -->
+                <div class=" p-6 text-center">
+                    <h3 class="text-2xl font-bold text-SignUp text-left">$50 <span class="text-sm text-gray-400">/month</span></h3>
+                    <p class="mt-2 font-bold text-lg text-SignUp text-left">Base</p>
+                    <p class="mt-2 text-sm text-gray-600 text-left">
+                        For most businesses that want to optimize web queries.
+                    </p>
+                    <ul class="mt-4 text-left space-y-2">
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Shower</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Fitness Check-up</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Grooming</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Hair and Nail Cut</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Control Hair Falling</li>
+                    </ul>
+                    <button class="mt-12 bg-gray-100 text-SignUp font-bold px-4 py-2 rounded-full hover:bg-blue-100">Choose plan</button>
+                </div>
+
+                <!-- Highlighted Card -->
+                <div class="relative bg-SignUp text-white rounded-lg shadow-lg p-6 text-center transform scale-105 -translate-y-11">
+                    <span class="items-end relative top-0 left-10 transform -translate-x-1/2 -translate-y-2 bg-white text-SignUp text-xs font-semibold px-4 py-1 rounded-full uppercase">Most Popular</span>
+                    <h3 class="text-3xl font-bold text-left mt-4">$100 <span class="text-sm text-gray-200">/month</span></h3>
+                    <p class="mt-2 font-bold text-lg text-left">Pro</p>
+                    <p class="mt-2 text-sm text-left">
+                        For most businesses that want to optimize web queries.
+                    </p>
+                    <ul class="mt-4 text-left space-y-2">
+                        <li class="flex items-center"><span class="text-blue-200">&#10003;</span> Pet Shower</li>
+                        <li class="flex items-center"><span class="text-blue-200">&#10003;</span> Fitness Check-up</li>
+                        <li class="flex items-center"><span class="text-blue-200">&#10003;</span> Pet Grooming</li>
+                        <li class="flex items-center"><span class="text-blue-200">&#10003;</span> Hair and Nail Cut</li>
+                        <li class="flex items-center"><span class="text-blue-200">&#10003;</span> Control Hair Falling</li>
+                    </ul>
+                    <button class="mt-6 bg-white text-SignUp font-bold px-4 py-2 rounded-full hover:bg-gray-100">Choose plan</button>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="p-6 text-center">
+                    <h3 class="text-2xl font-bold text-SignUp text-left">$200 <span class="text-sm text-gray-400">/month</span></h3>
+                    <p class="mt-2 text-lg font-bold text-SignUp text-left">Enterprise</p>
+                    <p class="mt-2 text-sm text-gray-600 text-left">
+                        For most businesses that want to optimize web queries.
+                    </p>
+                    <ul class="mt-4 text-left space-y-2">
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Shower</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Fitness Check-up</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Grooming</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Hair and Nail Cut</li>
+                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Control Hair Falling</li>
+                    </ul>
+                    <button class="mt-12 bg-gray-100 text-SignUp font-bold px-4 py-2 rounded-full hover:bg-blue-100">Choose plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     <script src="./js/index.js"></script>
