@@ -97,7 +97,7 @@
         </div>
     <!-- Services -->
     <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-4">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-4">
             <div class="relative container mx-auto rounded-2xl overflow-hidden shadow-lg">
                 <img src="../Img/7xm 5.jpg" alt=""> 
                 <div class="absolute inset-0 overflow-hidden">
@@ -111,13 +111,13 @@
                 </div>
             </div>
 
-            <div class="flex flex-col gap-4">
+            <div class="container mx-auto flex flex-col gap-4">
                 <div class="relative container mx-auto rounded-2xl overflow-hidden shadow-lg">
                     <img src="../Img/7xm 4.png" alt=""> 
                     <div class="absolute inset-0 overflow-hidden">
                         <div class="p-2">
-                            <h3 class="text-white font-bold pt-2"> Pet Grooming</h3>
-                            <p class="text-white pt-0">Connect with your pet</p>
+                            <h3 class="text-white font-bold pt-2"> Veterinary</h3>
+                            <p class="text-white pt-0">Get your pet checked regularly</p>
                         </div>  
                     </div>
                     <div  class="absolute top-auto left-0 inset-0 overflow-visible p-4  justify-left ">
@@ -128,8 +128,8 @@
                     <img src="../Img/7xm 9.png" alt=""> 
                     <div class="absolute inset-0 overflow-hidden">
                         <div class="p-4">
-                            <h3 class="text-white font-bold pt-2"> Pet Grooming</h3>
-                            <p class="text-white pt-0">Connect with your pet</p>
+                            <h3 class="text-white font-bold pt-2"> Healthy Meals</h3>
+                            <p class="text-white pt-0">Ensure your pet gets dieted</p>
                         </div>  
                     </div>
                     <div  class="absolute top-auto left-0 inset-0 p-4  justify-left ">
@@ -184,8 +184,8 @@
             <!-- Monthly/Yearly Toggle -->
             <div class="flex justify-center mb-8">
                 <div class="inline-flex rounded-full bg-gray-200 p-1">
-                    <button class="px-6 py-2 text-sm font-semibold bg-SignUp hover:text-gray-200 text-white rounded-full">Monthly</button>
-                    <button class="px-6 py-2 text-sm font-semibold text-gray-600 hover:text-blue-400">Yearly</button>
+                    <button class="px-6 py-2 text-sm font-semibold bg-SignUp hover:text-gray-200 text-white rounded-full">MONTHLY</button>
+                    <button class="px-6 py-2 text-sm font-semibold text-gray-600 hover:text-blue-400">YEARLY</button>
                 </div>
             </div>
 
@@ -198,13 +198,26 @@
                     <p class="mt-2 text-sm text-gray-600 text-left">
                         For most businesses that want to optimize web queries.
                     </p>
-                    <ul class="mt-4 text-left space-y-2">
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Shower</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Fitness Check-up</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Grooming</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Hair and Nail Cut</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Control Hair Falling</li>
-                    </ul>
+                    <!-- <ul class="mt-4 text-left space-y-2">
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Pet Shower</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span > Fitness Check-up</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Pet Grooming</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Hair and Nail Cut</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Control Hair Falling</li>
+                    </ul> -->
+                    <div class=" mt-4 text-left  items-center">
+                        <input type="checkbox" name="PetShower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="fitness checkup" id="fitnesscheckup" class="text-SignUp mr-2 mb-3">
+                        <label for="fitnesscheckup"> Fitness Check Up</label> <br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+
+                    </div>
                     <button class="mt-12 rounded-full bg-gray-100 text-SignUp font-bold px-4 py-2  hover:bg-blue-100">Choose plan</button>
                 </div>
 
@@ -215,31 +228,57 @@
                     <p class="mt-2 text-sm text-gray-600 text-left">
                         For most businesses that want to optimize web queries.
                     </p>
-                    <ul class="mt-4 text-left space-y-2">
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Shower</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Fitness Check-up</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Grooming</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Hair and Nail Cut</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Control Hair Falling</li>
-                    </ul>
+                    <!-- <ul class="mt-4 text-left space-y-2">
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Pet Shower</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Fitness Check-up</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Pet Grooming</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Hair and Nail Cut</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Control Hair Falling</li>
+                    </ul> -->
+                    <div class=" mt-4 text-left  items-center">
+                        <input type="checkbox" name="PetShower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="fitness checkup" id="fitnesscheckup" class="text-SignUp mr-2 mb-3">
+                        <label for="fitnesscheckup"> Fitness Check Up</label> <br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+
+                    </div>
                     <button class="mt-12 bg-gray-100 text-SignUp font-bold px-4 py-2 rounded-full hover:bg-blue-100">Choose plan</button>
                 </div>
 
                 <!-- Highlighted Card -->
-                <div class="relative bg-SignUp text-white rounded-lg shadow-lg p-6 text-center transform scale-105 -translate-y-11">
-                    <span class="items-end relative top-0 left-10 transform -translate-x-1/2 -translate-y-2 bg-white text-SignUp text-xs font-semibold px-4 py-1 rounded-full uppercase">Most Popular</span>
+                <div class="relative bg-SignUp text-white rounded-2xl shadow-xl shadow-gray-500 p-6 text-center  transform scale-105 -translate-y-11">
+                    <span class="items-end relative font-bold top-0 left-10 transform -translate-x-1/2 -translate-y-2 bg-white text-SignUp text-xs  px-4 py-1 rounded-full uppercase">Most Popular</span>
                     <h3 class="text-3xl font-bold text-left mt-4">$100 <span class="text-sm text-gray-200">/month</span></h3>
                     <p class="mt-2 font-bold text-lg text-left">Pro</p>
                     <p class="mt-2 text-sm text-left">
                         For most businesses that want to optimize web queries.
                     </p>
-                    <ul class="mt-4 text-left space-y-2">
-                        <li class="flex items-center"><span class="text-blue-200">&#10003;</span> Pet Shower</li>
-                        <li class="flex items-center"><span class="text-blue-200">&#10003;</span> Fitness Check-up</li>
-                        <li class="flex items-center"><span class="text-blue-200">&#10003;</span> Pet Grooming</li>
-                        <li class="flex items-center"><span class="text-blue-200">&#10003;</span> Hair and Nail Cut</li>
-                        <li class="flex items-center"><span class="text-blue-200">&#10003;</span> Control Hair Falling</li>
-                    </ul>
+                    <!-- <ul class="mt-4 text-left space-y-2">
+                        <li class="flex items-center "><span class="text-blue-200 mr-2">&#10003;</span> Pet Shower</li>
+                        <li class="flex items-center"><span class="text-blue-200 mr-2">&#10003;</span> Fitness Check-up</li>
+                        <li class="flex items-center"><span class="text-blue-200 mr-2">&#10003;</span> Pet Grooming</li>
+                        <li class="flex items-center"><span class="text-blue-200 mr-2">&#10003;</span> Hair and Nail Cut</li>
+                        <li class="flex items-center"><span class="text-blue-200 mr-2">&#10003;</span> Control Hair Falling</li>
+                    </ul> -->
+                    <div class=" mt-4 text-left  items-center">
+                        <input type="checkbox" name="PetShower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="fitness checkup" id="fitnesscheckup" class="text-SignUp mr-2 mb-3">
+                        <label for="fitnesscheckup"> Fitness Check Up</label> <br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+
+                    </div>
                     <button class="mt-6 bg-white text-SignUp font-bold px-4 py-2 rounded-full hover:bg-gray-100">Choose plan</button>
                 </div>
 
@@ -250,21 +289,49 @@
                     <p class="mt-2 text-sm text-gray-600 text-left">
                         For most businesses that want to optimize web queries.
                     </p>
-                    <ul class="mt-4 text-left space-y-2">
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Shower</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Fitness Check-up</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Pet Grooming</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Hair and Nail Cut</li>
-                        <li class="flex items-center"><span class="text-SignUp">&#10003;</span> Control Hair Falling</li>
-                    </ul>
+                    <!-- <ul class="mt-4 text-left space-y-2">
+                        <li class="flex items-center mr-2"><span class="text-SignUp mr-2">&#10003;</span> Pet Shower</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Fitness Check-up</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Pet Grooming</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Hair and Nail Cut</li>
+                        <li class="flex items-center"><span class="text-SignUp mr-2">&#10003;</span> Control Hair Falling</li>
+                    </ul> -->
+                    <div class=" mt-4 text-left  items-center">
+                        <input type="checkbox" name="PetShower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="fitness checkup" id="fitnesscheckup" class="text-SignUp mr-2 mb-3">
+                        <label for="fitnesscheckup"> Fitness Check Up</label> <br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+                        <input type="checkbox" name="Pet Shower" id="PetShower" class="text-SignUp mr-2 mb-3">
+                        <label for="PetShower"> Pet Shower</label><br>
+
+                    </div>
                     <button class="mt-12 bg-gray-100 text-SignUp font-bold px-4 py-2 rounded-full hover:bg-blue-100">Choose plan</button>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Professional Care -->
+    <div class="container mx-auto py-12 mt-10 bg-SignUp text-white rounded-2xl p-10 flex flex-col md:flex-row ">  
+        <div class="container mx-auto">
+            <h3 class="text-l text-white font-bold md:text-4xl text-4xl "> Professional<br> Pet Care</h3>
+            <p class="text-white sm:text-justify pt-5 text-center font-semibold">Adopt a pet and give it a home, it will love you back unconditionally.</p> 
+            <button class="mt-6 bg-white text-SignUp font-bold px-4 py-2 rounded-full hover:bg-gray-200">Register</button>
+        </div>
+        <img src="../Img/pngegg (4) 1.png" alt="">
+    </div>
 
 
 
+
+
+
+
+
+    
     <script src="./js/index.js"></script>
 </body>
 </html>
